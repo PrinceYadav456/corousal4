@@ -158,6 +158,7 @@ const CircularGallery = ({ gallery }) => {
               <img
                 src={item.src}
                 alt={item.title}
+                loading="lazy"
                 className="w-full h-auto object-contain rounded-2xl shadow-2xl block"
               />
             </div>
